@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "navLink_1st": "inicio",
+    "navLink_2nd": "Projetos",
+    "navLink_3rd": "Habilidades",
+    "navLink_4th": "Sobre",
+    "navLink_5th": "Contato"
+  },
+  "started": {
+    "description": "Dev Front-End localizado no Paraná/Brasil, atualmente cursado engenharia de software, focado em desenvolvimento de software e criação de interfaces com animações prontas para uso. Hábil em projetar, animar e codificar produtos. Sempre buscando fazer mais interfaces com experiências fantásticas."
+  },
+  "project": {
+    "title": "projetos",
+    "subtitle": "Obras Selecionadas"
+  },
+  "skills": {
+    "title": "habilidades",
+    "subtitle": "posso ajuda lo...",
+    "frontEnd_description": "Proficiência em transforma conceitos em realidade, garantindo acessibilidade, funcionalidade e qualidade. Implementam com precisão o design projetado, assegurando uma experiência completa e satisfatória para o usuário.",
+    "backend_description": "Com experiência em criar e gerenciar servidores e APIs eficientes, possuo um conhecimento sólido em bancos de dados que complementa minhas habilidades. buscando constantemente otimizar cada aspecto do processo."
+  },
+  "about": {
+    "title": "Sobre ",
+    "subtitle": "um pouco sobre mim",
+    "description": "desenvolvedor Front-End baseado no Paraná, Brasil, minha jornada na programação começou como um simples hobby aos 16 anos. No entanto, ao longo do tempo, esse interesse cresceu e se transformou em uma paixão genuína. Além do mundo da programação, gosto de música e livros. Sou um curioso incansável, sempre em busca de novos conhecimentos e maneiras de aprimorar minhas habilidades. "
+  },
+  "contact": {
+    "title": "contato ",
+    "subtitle": "vamos trabalha juntos",
+    "form": {
+      "notification": {
+        "success": "seu email foi enviado com success",
+        "warning": "não foi possível enviar seu e mail devido um error interno tente mais tarde"
+      },
+      "name": {
+        "name": "nome",
+        "placeholder": "seu nome",
+        "errorValidation": "mínimo 3 carácter"
+      },
+      "email": {
+        "name": "email",
+        "placeholder": "seu email",
+        "errorValidation": "email invalido"
+      },
+      "message": {
+        "name": "mensagem",
+        "placeholder": "sua mensagem",
+        "errorValidation": "sua mensagem deve conter no mínimo 10 caracteres"
+      }
+    }
+  }
+}

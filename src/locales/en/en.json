@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "navLink_1st": "Home",
+    "navLink_2nd": "My Projects",
+    "navLink_3rd": "Skill",
+    "navLink_4th": "About",
+    "navLink_5th": "Contact"
+  },
+  "started": {
+    "description": "Front-End Developer located in Paraná/Brazil, currently studying software engineering, focused on software development and creating interfaces with pre-made animations ready for use. Skilled in designing, animating, and coding products. Always striving to create interfaces with fantastic experiences"
+  },
+  "project": {
+    "title": "project",
+    "subtitle": "show case"
+  },
+  "skills": {
+    "title": "skill",
+    "subtitle": "and i can help with...",
+    "frontEnd_description": "Proficiency in turning concepts into reality, ensuring accessibility, functionality, and quality. They accurately implement the designed layout, ensuring a complete and satisfactory user experience.",
+    "backend_description": "With experience in creating and managing efficient servers and APIs, I possess a solid understanding of databases that complements my skills. Constantly seeking to optimize every aspect of the process, with an unwavering focus on quality and performance, I am ready to tackle challenges and contribute significantly to the success of any project."
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "a little about myself",
+    "description": "Front-End Developer based in Paraná, Brazil, my journey in programming began as a simple hobby at the age of 16. However, over time, this interest grew and turned into a genuine passion. Apart from the programming world, I enjoy music and books. I am an unrelenting curious person, always seeking new knowledge and ways to enhance my skills."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's work together",
+    "form": {
+      "notification": {
+        "success": "email was sent successfully",
+        "warning": "Sorry, Unable to send your email"
+      },
+      "name": {
+        "name": "name",
+        "placeholder": "what's your name",
+        "errorValidation": "minimum 3 characters"
+      },
+      "email": {
+        "name": "email",
+        "placeholder": "what's your email",
+        "errorValidation": "email invalid"
+      },
+      "message": {
+        "name": "message",
+        "placeholder": "what's your message",
+        "errorValidation": "your message must contain at least 10 characters"
+      }
+    }
+  }
+}
