@@ -34,7 +34,6 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const github = new Github()
   const projects = await github.getRepositoryPinned();
-  console.log(projects)
   return {
     props: {
       projects,

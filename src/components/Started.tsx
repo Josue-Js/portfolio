@@ -80,7 +80,7 @@ export function Started() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.3, ease: 'easeOut' }}
           >
-            <Link href="https://www.linkedin.com/in/josué-silva-694875207/">
+            <Link href="https://www.linkedin.com/in/josue-silva-694875207/">
               <LinkedinLogo size={24} />
             </Link>
           </motion.div>

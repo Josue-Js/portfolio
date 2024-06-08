@@ -56,7 +56,6 @@ export function Card() {
       >
         <code
           className={`absolute bg-eerie-black left-0 right-0 bottom-0 top-0 z-10 flex justify-center items-center origin-top-left ${!isOpenCode ? 'scale-0' : 'scale-[1]'} transition-all duration-500 `}
-
         >
           <motion.pre className='text-white mt-8'
             style={{
