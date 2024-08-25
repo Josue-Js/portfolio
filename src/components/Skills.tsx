@@ -38,7 +38,7 @@ export function Skills() {
           </p>
         </motion.div>
 
-        <span className='w-[1px] h-52 bg-bright-gray' />
+        <span className='hidden md:flex w-[1px] h-52 bg-bright-gray' />
 
         <motion.div
           initial={{ opacity: 0, y: -70, }}
