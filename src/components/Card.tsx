@@ -102,12 +102,12 @@ export function Card() {
           <div className='flex items-center p-5 gap-3 cursor-pointer flex-1'>
             <figure className='relative bg-bright-gray rounded-[50%] w-[45px] h-[45px] md:w-[75px] md:h-[75px] shrink-0'>
               <Image
-                className=""
                 src="/profile.png"
                 alt=""
                 fill
                 sizes='(min-width: 768px) 75px, 45px'
                 draggable={false}
+                unoptimized
               />
             </figure>
             <div className='flex flex-col '>
