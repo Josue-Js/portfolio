@@ -13,8 +13,6 @@ type Props = {
 
 export default function Home({ projects }: Props) {
 
-
-
   return (
     <main className="max-w-[1680px] mx-auto px-4 py-6 lg:px-10 min-[1720px]:px-0">
       <Navbar />

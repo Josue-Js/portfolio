@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { motion } from 'framer-motion';
-import { GlobeHemisphereEast, GithubLogo } from '@phosphor-icons/react';
 import { IRepository } from "@/services/github";
 import Link from "next/link";
 
@@ -24,7 +22,7 @@ export function Project({ project, algin }: Props) {
         transition={{ duration: 0.4 }}
         viewport={{ once: true, amount: 0.8, }}
       >
-        <Image
+        <img
           className="w-auto h-auto rounded-md cursor-pointer"
           src={project.image}
           alt="preview project"
