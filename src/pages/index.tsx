@@ -7,7 +7,7 @@ import { Skills } from "@/components/Skills";
 import { About } from "@/components/About";
 import { Contact } from "../components/Contact";
 import { useEffect } from "react";
-import { useSonner, toast  } from "sonner";
+import {  toast  } from "sonner";
 
 type Props = {
   projects: IRepository[]
@@ -15,13 +15,13 @@ type Props = {
 
 export default function Home({ projects }: Props) {
 
-  const { toasts, } = useSonner()
+
 
   useEffect(() => {
 
     const timer = setTimeout(()=> {
-          toast("This portfolio is deprecated. I'm working on new one.", {  position: 'top-right', });
-    }, 2000)
+      toast("This portfolio is deprecated. I'm working on new one.", {  position: 'top-right', });
+    }, 1500)
 
    return ()=> clearTimeout(timer)
   }, []);
