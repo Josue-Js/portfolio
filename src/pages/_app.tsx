@@ -2,6 +2,7 @@ import { LangProvider } from "@/context/LangContext";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Poppins } from 'next/font/google'
+import { Toaster } from "@/components/ui/sonner"
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -14,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <LangProvider>
       <div className={poppins.className}>
         <Component {...pageProps} />
+          <Toaster  />
       </div>
     </LangProvider>
   );

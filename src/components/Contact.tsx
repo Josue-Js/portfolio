@@ -1,13 +1,13 @@
 import { FormEvent, useState } from "react";
 import { Title } from "./Title"
 import { z } from 'zod';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 import { Input } from "./Input";
 import { useLang } from "@/hooks/useLang";
 import axios from "axios";
 import { validationForm } from "@/utils/validationForm";
+import { toast} from 'sonner'
 
 type keys = 'name' | 'email' | 'message'
 
@@ -56,10 +56,11 @@ export function Contact() {
       setEmail('');
       setMessage('');
       setErros({});
-      toast.success(form.notification.success)
+      toast.success(form.notification.success, { position: 'top-right' })
     } else {
-      toast.warning(form.notification.warning)
+      toast(form.notification.warning, { position: 'top-right' })
     }
+
   };
 
 
@@ -73,8 +74,6 @@ export function Contact() {
         subTitle={scoped.contact.subtitle}
       />
       <div>
-        <ToastContainer />
-
         <form
           onSubmit={handleSubmit}
           className="flex flex-col gap-8 px-8 py-10 max-w-[700px] drop-shadow-[0_0_15px_rgba(0,0,0,0.02)] bg-lotion rounded-xl"
